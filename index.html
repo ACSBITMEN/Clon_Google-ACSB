@@ -7,6 +7,7 @@
 <!--HOJA DE ESTILOS-->
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="img/logo-icon.png" type="image/x-icon">
+<!--ENLACE DE ICONOS -->
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 <!--Debe contener la etiqueta title con el nombre  de "Clon de Google"-->
@@ -16,7 +17,9 @@
     <header>
     <!-- Barra de navegación -->
         <nav>
+            <!-- Opcion Gmail -->
             <a href="">Gmail</a>
+            <!-- Opcion Imagenes -->
             <a href="">Imágenes</a>
             <a href="" class="icon-apps">
             <!-- Icono de "cuadritos" Apps -->
@@ -24,21 +27,39 @@
                     apps
                 </span>
             </a>
-            <a href="" class="foto">Foto</a>
+            <!-- Foto del usuario -->
+            <a href="" class="foto">
+                <img src="data:image/png;base64,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" alt="">
+            </a>
         </nav>
     </header>
 
     <main>
+        <!-- Seccion del logo principal del google -->
         <section class="main-logo">
-            <img src="img/logo-google.png" alt="">
+            <!-- Logo principal del google -->
+            <img src="https://www.google.com/logos/doodles/2018/gabriel-garcia-marquezs-91st-birthday-5046026191765504-2xa.gif" alt="">
         </section>
+        <!-- Seccion del cuadro de texto de busqueda -->
         <section class="main-input">
+            <!-- Contenedor del cuadro de texto de busqueda -->
             <div class="main-input-container">
+                <!-- Icono de "Lupa" -->
                 <span class="material-symbols-outlined">
-                    search
+                Search
                 </span>
+                <!-- Cuadro de texto de busqueda -->
                 <input type="text">
+                <!-- Boton de "microfono" -->
+                <span class="material-symbols-outlined">
+                    MIC
+                </span>
+                <!-- Boton de "Camara" -->
+                <span class="material-symbols-outlined">
+                    Camera
+                </span>
             </div>
+            <!-- -->
         </section>
         <section class="main-buttons">
             <div>
@@ -47,7 +68,7 @@
             <div>
                 <button>Voy a tener suerte</button>
             </div>
-            <p>Ofrecido por Google en: <a href="">Español(Latinoamérica)</a> <a href="">Quechua</a></p>
+            <p>Ofrecido por Google en: <a href="">Español (Latinoamérica)</a> <a href="">Colombia Parce!</a></p>
         </section>
     </main>
 
@@ -72,3 +93,5 @@
     </footer>
 </body>
 </html>
+
+<!-- Realizado por Andres Camilo Suarez Bully -->
