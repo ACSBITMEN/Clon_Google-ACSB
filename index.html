@@ -4,16 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<!--HOJA DE ESTILOS-->
+    <!--HOJA DE ESTILOS-->
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="img/logo-icon.png" type="image/x-icon">
-<!--ENLACE DE ICONOS -->
+    <!--ENLACE DE ICONOS -->
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-<!--Debe contener la etiqueta title con el nombre  de "Clon de Google"-->
+    <!--Debe contener la etiqueta title con el nombre  de "Clon de Google"-->
     <title>Clon de Google</title>
 </head>
 <body>
+    <!--Tener un header con dos a y dos img-->
     <header>
     <!-- Barra de navegación -->
         <nav>
@@ -21,6 +22,7 @@
             <a href="">Gmail</a>
             <!-- Opcion Imagenes -->
             <a href="">Imágenes</a>
+            <!-- Opcion Apps -->
             <a href="" class="icon-apps">
             <!-- Icono de "cuadritos" Apps -->
                 <span class="material-symbols-outlined">
@@ -33,12 +35,14 @@
             </a>
         </nav>
     </header>
-
+    <!--Usar la etiqueta main-->
     <main>
+        <!--Deben existir al menos dos section-->
         <!-- Seccion del logo principal del google -->
         <section class="main-logo">
+            <!--img con #logo asociado al logo de google-->
             <!-- Logo principal del google -->
-            <img src="https://www.google.com/logos/doodles/2018/gabriel-garcia-marquezs-91st-birthday-5046026191765504-2xa.gif" alt="">
+            <img id="logo" src="https://www.google.com/logos/doodles/2018/gabriel-garcia-marquezs-91st-birthday-5046026191765504-2xa.gif" alt="">
         </section>
         <!-- Seccion del cuadro de texto de busqueda -->
         <section class="main-input">
@@ -59,35 +63,42 @@
                     Camera
                 </span>
             </div>
-            <!-- -->
         </section>
+        <!-- Seccion Botones -->
         <section class="main-buttons">
+            <!-- contenedor del boton de "Buscar con Google"-->
             <div>
-                <button>Buscar con Google</button>
+                <button id="search" class=".btn-search">Buscar con Google</button>
             </div>
+            <!-- contenedor del boton de "Voy a tener suerte"-->
             <div>
-                <button>Voy a tener suerte</button>
+                <button id="lucky" class=".btn-search">Voy a tener suerte</button>
             </div>
+            <!-- Frase debajo de los botones -->
             <p>Ofrecido por Google en: <a href="">Español (Latinoamérica)</a> <a href="">Colombia Parce!</a></p>
         </section>
     </main>
-
+    <!--Debe existir footer con links idénticos a google original -->
+    <!-- Pie de pagina -->
     <footer>
+        <!-- Seccion superior del footer-->
         <section class="country">
-            <p>Colombia</p>
+            <p>Colombia Parce!</p>
         </section>
+        <!-- Seccion inferior del footer-->
         <section class="others">
+            <!-- Seccion inferior-izquierda del footer-->
             <div>
                 <a href="">Sobre Google</a>
                 <a href="">Publicidad</a>
                 <a href="">Negocios</a>
                 <a href="">Cómo funciona la búsqueda</a>
             </div>
-
+            <!-- Seccion inferior-derecha del footer-->
             <div>
                 <a href="">Privacidad</a>
                 <a href="">Condiciones</a>
-                <a href="">Proferencias</a>
+                <a href="">Preferencias</a>
             </div>
         </section>
     </footer>
