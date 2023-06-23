@@ -1,7 +1,7 @@
 ### Clon de Google
 `Gibhub Page` : <https://acsbitmen.github.io/Clon_Google/>
 
-![](https://i.ibb.co/wcDjwjB/Clon-Google-Img.png)
+![]([https://i.ibb.co/wcDjwjB/Clon-Google-Img.png](https://i.ibb.co/18wpJ9P/Clon-Google-Img.png))
 
 ** CREAR UNA PAGINA CLONANDO LA PAGINA DE GOOGLE.**
 
